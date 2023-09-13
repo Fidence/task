@@ -2,20 +2,19 @@ import React from 'react'
 
 const FooterComp = () => {
   return (
-    <div className=' footer bg-body-secondary'>
-        <div className="container">
+    <div className=' footer bg-body-secondary ' >
+        <div className="container d-flex justify-content-between">
             <div className="site">
-                <h5>Fiber</h5>
-                <p className='site-txt'>With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
-                <p className='site-txt'>made with love in the netherlands</p>
+                <h5>FiBizz</h5>
+              <p>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Obcaecati, doloribus?</p>
             </div>
             <div className="site">
                 <h5>Sitemap</h5>
                 <ul>
-                    <li>Homepage</li>
-                    <li>Pricing</li>
-                    <li>Testimonies</li>
-                    <li>Features</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
                 </ul>
             </div>
             <div className="site">
@@ -36,15 +35,7 @@ const FooterComp = () => {
                     
                 </ul>
             </div>
-            <div className="site">
-                <h5>Portfolios</h5>
-                <ul>
-                    <li>sarah Andrews</li>
-                    <li>Matthew higgins</li>
-                    <li>Janice Dave</li>
-                    
-                </ul>
-            </div>
+            
         </div>
     </div>
   )
